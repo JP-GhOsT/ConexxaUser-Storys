@@ -633,8 +633,6 @@ Como um *aluno com baixa visão*, eu quero que a plataforma tenha bom contraste 
   - Adicionar critérios para arquivar ou excluir grupos inativos.
 - *"Notificações"*:
   - Especificar o tempo máximo para envio de notificações após uma alteração.
-- *"Desempenho e Escalabilidade"*:
-  - Adicionar critérios para testes de carga e estresse.
 - *"Acessibilidade"*:
   - Adicionar critérios para suporte a múltiplos idiomas e legendas em vídeos.
 - *"Avaliação de Grupos e Participantes"*:

@@ -1,4 +1,4 @@
-### User Stories 1 para o Produto Connexa
+### User Stories para o Produto Connexa
 
 ---
 

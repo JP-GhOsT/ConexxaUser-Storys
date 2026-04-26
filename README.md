@@ -574,3 +574,82 @@ Como um *aluno com baixa visão*, eu quero que a plataforma tenha bom contraste 
 *Justificativa:* Melhora a experiência de alunos com baixa visão ou preferências específicas.  
 
 ---
+
+### Análise do Backlog
+
+---
+
+#### 1. *Requisitos funcionais importantes que estão AUSENTES*
+
+*Recuperação de senha*: Não há user stories relacionadas à recuperação de senha para alunos ou administradores.
+*Gerenciamento de grupos inativos*: Não há funcionalidade para identificar e arquivar grupos inativos ou sem atividade por um período prolongado.
+
+---
+
+#### 2. *Requisitos não-funcionais que não foram cobertos*
+
+- *Segurança*:
+  - Não há menção de proteção contra ataques de força bruta além do bloqueio após 5 tentativas de login.
+- *Desempenho*:
+  - Não há menção de requisitos para otimização de banco de dados
+- *Acessibilidade*:
+  - Não há requisitos para suporte a múltiplos idiomas.
+- *Conformidade legal*:
+  - Não há menção de conformidade com leis de proteção de dados, como LGPD ou GDPR.
+- *Testabilidade*:
+  - Não há menção de requisitos para testes automatizados ou cobertura mínima de testes.
+
+---
+
+#### 3. *Ambiguidades ou sobreposições entre as user stories*
+- *"Desempenho e Escalabilidade" e "Escalabilidade"*: Ambas as histórias abordam escalabilidade, mas estão separadas, o que pode causar redundância.
+- *"Notificações" e "Sistema de Mensagens Internas"*: Há sobreposição entre notificações e mensagens diretas, especialmente em relação à comunicação entre membros do grupo.
+- *"Busca por Localização" e "Busca por Palavras-chave"*: Não está claro se a busca por palavras-chave inclui localização ou se são funcionalidades completamente separadas.
+- *"Visualização de Grupos" e "Sugestões de Grupos"*: Ambas mencionam a exibição de detalhes do grupo, mas não está claro se as sugestões incluem os mesmos detalhes.
+
+---
+
+#### 4. *Critérios de aceitação que não são testáveis*
+- *"Gerenciar Usuários (Administrador)"*:
+  - "O sistema deve registrar todas as ações administrativas para auditoria" não especifica como ou onde essas ações serão registradas.
+- *"Sugestões de Grupos"*:
+  - "O sistema deve atualizar as sugestões automaticamente conforme novos grupos são criados" não define o intervalo ou condições para atualização.
+- *"Proteção contra Ataques"*:
+  - "O sistema deve bloquear temporariamente o acesso e notificar o administrador" não especifica o tempo de bloqueio ou o formato da notificação.
+- *"Contraste e Legibilidade"*:
+  - "O sistema deve garantir um contraste mínimo de 4.5:1 entre texto e fundo" não define como isso será medido ou validado.
+
+---
+
+#### 5. *Sugestões de melhoria para as stories existentes*
+- *"Criar Grupo de Estudo"*:
+  - Adicionar um critério para permitir a edição de informações do grupo logo após a criação.
+  - Especificar validações para o limite de participantes (ex.: número máximo permitido).
+- *"Buscar Grupos de Estudo"*:
+  - Adicionar critérios para lidar com resultados vazios (ex.: exibir mensagem ou sugestões alternativas).
+- *"Participar de um Grupo"*:
+  - Adicionar critérios para permitir que o aluno cancele uma solicitação pendente.
+- *"Gerenciar Grupos Criados"*:
+  - Adicionar critérios para arquivar ou excluir grupos inativos.
+- *"Notificações"*:
+  - Especificar o tempo máximo para envio de notificações após uma alteração.
+- *"Desempenho e Escalabilidade"*:
+  - Adicionar critérios para testes de carga e estresse.
+- *"Acessibilidade"*:
+  - Adicionar critérios para suporte a múltiplos idiomas e legendas em vídeos.
+- *"Avaliação de Grupos e Participantes"*:
+  - Especificar como as avaliações serão moderadas para evitar abusos.
+- *"Sistema de Mensagens Internas"*:
+  - Adicionar critérios para permitir o bloqueio de mensagens indesejadas.
+- *"Integração com Calendário"*:
+  - Especificar quais ferramentas de calendário são suportadas além do Google Calendar.
+- *"Autenticação Segura"*:
+  - Adicionar critérios para permitir login com redes sociais (ex.: Google, Facebook).
+- *"Controle de Acesso"*:
+  - Especificar como os logs de acesso serão armazenados e por quanto tempo.
+- *"Proteção contra Ataques"*:
+  - Adicionar critérios para testes de segurança automatizados.
+- *"Tempo de Resposta Rápido"*:
+  - Especificar métricas para diferentes tipos de páginas (ex.: páginas com mais dados podem ter tempos de resposta maiores).
+
+---

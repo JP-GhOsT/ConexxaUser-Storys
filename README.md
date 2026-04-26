@@ -635,18 +635,8 @@ Como um *aluno com baixa visão*, eu quero que a plataforma tenha bom contraste 
   - Especificar o tempo máximo para envio de notificações após uma alteração.
 - *"Acessibilidade"*:
   - Adicionar critérios para suporte a múltiplos idiomas e legendas em vídeos.
-- *"Avaliação de Grupos e Participantes"*:
-  - Especificar como as avaliações serão moderadas para evitar abusos.
 - *"Sistema de Mensagens Internas"*:
   - Adicionar critérios para permitir o bloqueio de mensagens indesejadas.
-- *"Integração com Calendário"*:
-  - Especificar quais ferramentas de calendário são suportadas além do Google Calendar.
-- *"Autenticação Segura"*:
-  - Adicionar critérios para permitir login com redes sociais (ex.: Google, Facebook).
-- *"Controle de Acesso"*:
-  - Especificar como os logs de acesso serão armazenados e por quanto tempo.
-- *"Proteção contra Ataques"*:
-  - Adicionar critérios para testes de segurança automatizados.
 - *"Tempo de Resposta Rápido"*:
   - Especificar métricas para diferentes tipos de páginas (ex.: páginas com mais dados podem ter tempos de resposta maiores).
 
